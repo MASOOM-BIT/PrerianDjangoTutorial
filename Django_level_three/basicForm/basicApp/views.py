@@ -14,6 +14,7 @@ def form_name_view(request):
 			print("VALIDATION SUCESS")
 			print("NAME :"+form.cleaned_data['name'])
 			print("Email:"+form.cleaned_data['email'])
+			print("Verifiy_Email:"+form.cleaned_data['verify_email'])
 			print("TEXT :"+form.cleaned_data['text'])
 
 	return render(request,'basicApp/form_page.html',{'form':form})
