@@ -34,4 +34,4 @@ Current Projects
 I am continuously working on personal projects to enhance my skills and stay updated with the latest technologies in web development.
 
 Conclusion
-Thank you for visiting my README! I am excited about the opportunities that lie ahead in the world of technology. Let's connect and explore how we can work together to create innovative solutions!
+I am excited about the opportunities that lie ahead in the world of technology. Let's connect and explore how we can work together to create innovative solutions!
