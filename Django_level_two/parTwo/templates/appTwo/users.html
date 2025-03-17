@@ -6,18 +6,13 @@
 	<title>Users</title>
 </head>
 <body>
-	<h1>Here are your Users</h1>
-	{%if users%}
-	<ol>
-		{%for person in users%}
-		<li>User Info</li>
-		<ul>
-			<li>First Name: {{person.first_name}}</li>
-			<li>Last Name : {{person.last_name}}</li>
-			<li>Email : {{person.email}}</li>
-		</ul>
-		{%endfor%}
-	</ol>
-	{%endif%}
+	<div class="container">
+		<h1> Please SingUp Here!</h1>
+			<form>
+				{{form.as_p}}
+				{%csrf_token%}
+				<input type="submit" class="btn btn-primary" name="submit">
+			</form>
+	</div>
 </body>
 </html>
