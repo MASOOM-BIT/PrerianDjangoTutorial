@@ -2,7 +2,12 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-	return render(request,'basic_app/index.html')
+    context = {
+        'text': 'hello world',
+        'text2': 'welcome',
+        'number': 100
+    }
+    return render(request, 'basic_app/index.html', context)
 
 
 def other(request):
